@@ -1,5 +1,7 @@
 # Assignment1
-Video can be found here : https://archive.org/details/20160201001937
+Video can be found here : https://archive.org/details/20160201011841
+Or
+https://archive.org/download/20160201011841/2016-02-01-0118-41.flv
 
 The app is designed so that a user can add any number of fuel logs at one time by clicking "Add a Fuel Log".
 The app will only return back to the main activity where the fuel logs are shown if the user clicks the back button on their device.
