@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FuelTracker</string>
+    <string name="oldLogsTitle">Fuel Logs Stored</string>
+    <string name="totalLogsCost">Total Cost (All Logs): </string>
+    <string name="addFuelLogButton">Add a Fuel Log</string>
+    <string name="addfuel">Add a Fuel Log</string>
+    <string name="date_label">Date</string>
+    <string name="station_label">Station</string>
+    <string name="odometer_label">Odomoter Reading</string>
+    <string name="fuel_grade_label">Fuel Grade</string>
+    <string name="fuel_amount_label">Fuel Amount</string>
+    <string name="fuel_unit_cost_label">Fuel Unit Cost</string>
+    <string name="fuel_cost_label">Fuel Cost in $</string>
+    <string name="fuel_cost_amount_label"></string>
+    <string name="clear_all_label">Clear</string>
+    <string name="done_label">Done</string>
+    <string name="cancel_label">Cancel</string>
+</resources>

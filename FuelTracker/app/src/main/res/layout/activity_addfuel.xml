@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+
+        android:orientation="vertical"
+        android:padding="8.0dip" >
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="YYYY-MM-DD"/>
+
+
+        <TextView
+            android:id="@+id/station_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/station_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="e.g. Costco"/>
+
+        <TextView
+            android:id="@+id/odometer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odometer_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextOdometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Km(1 Decimal)"/>
+
+        <TextView
+            android:id="@+id/fuel_grade_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_grade_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextFuelGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="e.g. Regular">
+        </EditText>
+
+        <TextView
+            android:id="@+id/fuel_amount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_amount_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextFuelAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Liter(Rounded 3 Decimal)"/>
+
+        <TextView
+            android:id="@+id/fuel_unit_cost_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_unit_cost_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextUnitCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Cents Per Liter(Rounded 1 Decimal)"/>
+
+        <TextView
+            android:id="@+id/fuel_cost_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_cost_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/fuel_cost_amount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_cost_amount_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="8.0dip" >
+
+                <Button
+                    android:id="@+id/clear_all_label"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.21"
+                    android:text="@string/clear_all_label" />
+
+                <Button
+                    android:id="@+id/done_label"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.21"
+                    android:text="@string/done_label" />
+
+                <Button
+                    android:id="@+id/cancel_label"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.21"
+                    android:text="@string/cancel_label" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

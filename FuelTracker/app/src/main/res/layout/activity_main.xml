@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/oldLogsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/oldLogsTitle"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000099"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/totalLogsCost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/totalLogsCost"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF8000"
+        android:singleLine="true" />
+
+    <ListView
+        android:id="@+id/oldFlogList"
+        android:layout_width="fill_parent"
+        android:layout_height="263dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+    </ListView>
+
+
+
+    <Button
+        android:id="@+id/addFuelLogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addFuelLogButton" />
+
+
+
+</LinearLayout>
