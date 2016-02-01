@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FuelTracker</string>
+    <string name="app_name">bpharris-FuelTrack</string>
     <string name="oldLogsTitle">Fuel Logs Stored</string>
     <string name="totalLogsCost">Total Cost (All Logs): </string>
     <string name="addFuelLogButton">Add a Fuel Log</string>
