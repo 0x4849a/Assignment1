@@ -60,26 +60,13 @@ public class AddFuelActivity extends ActionBarActivity implements OnClickListene
         setContentView(R.layout.activity_addfuel);
 
         // Set up the views in memory.
-        // I commented out the onClick listeners for EditTexts incase I want to to use them later on.
         fuel_cost_label = (TextView) findViewById((R.id.fuel_cost_label));
         editTextDate = (EditText) findViewById(R.id.editTextDate);
-        //editTextDate.setOnClickListener(this);
-
         editTextStation = (EditText) findViewById(R.id.editTextStation);
-        //editTextStation.setOnClickListener(this);
-
         editTextOdometer = (EditText) findViewById(R.id.editTextOdometer);
-        //editTextOdometer.setOnClickListener(this);
-
         editTextFuelGrade = (EditText) findViewById(R.id.editTextFuelGrade);
-        //editTextFuelGrade.setOnClickListener(this);
-
         editTextFuelAmount = (EditText) findViewById(R.id.editTextFuelAmount);
-        //editTextFuelAmount.setOnClickListener(this);
-
         editTextUnitCost = (EditText) findViewById(R.id.editTextUnitCost);
-        //editTextUnitCost.setOnClickListener(this);
-
         fuel_cost_amount_label = (TextView) findViewById(R.id.fuel_cost_amount_label);
 
         clear_all_label = (Button) findViewById(R.id.clear_all_label);

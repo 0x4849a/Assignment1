@@ -106,6 +106,8 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         tempString+= " $"+Double.toString(fuelSum);
         totalLogsCost.setText(tempString);
 
+        //This is an anonymous inner class that is used for creating the listener of the listView.
+        //Adapted from here http://www.ezzylearning.com/tutorial/handling-android-listview-onitemclick-event
         oldFlogList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             /* If someone clicks on an item in the listView, then pass in the relevant index position

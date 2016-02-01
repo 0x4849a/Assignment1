@@ -18,6 +18,7 @@
         <activity
             android:name=".AddFuelActivity"
             android:label="@string/addfuel"
+            android:windowSoftInputMode="stateHidden"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
